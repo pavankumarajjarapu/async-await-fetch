@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+.productContainer{
+  width: 400px;
+  height: 500px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+  margin: 20px;
+  background-color: azure;
+  padding: 20px;
+}
+.image{
+  width: 250px;
+  height: 300px;
+}
+h2{
+  color: rgba(62, 7, 18, 0.548);
+  font-family: fantasy;
+}
+p{
+  color: rgb(176, 35, 232);
+  font-family:cursive
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:azure;
+}
+.buttons{
+  background-color: rgba(204, 232, 89, 0.745);
+  color: brown;
+  font-family: serif;
+  font-size: 20px;
+  border: 0px solid transparent;
+  border-radius: 5px;
+  height: 34px;
+  margin-bottom: 10px;
+}
+.buttonsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+span{
+  color: cadetblue;
+  font-family: serif;
+}
